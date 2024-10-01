@@ -1,0 +1,16 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+#root {
+  max-width: 100%;
+  margin: 0;
+  padding: 0;
+  text-align: start;
+}
+
+.hero-back {
+  background-image: linear-gradient(rgba(0, 0, 0, .8), rgba(0, 0, 0, 0.1)), url("/assets/hero.png");
+}
